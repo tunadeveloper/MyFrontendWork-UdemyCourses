@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    text-align: center;
+}
+body{
+    background-color: #FAEED1;
+
+}
+
+h1{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+ul li{
+    list-style-type: none;
+    font-family: 'Bebas Neue', sans-serif;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 17px;
+
+
+}
+a{
+    text-decoration: none;
+    color: rgb(134, 66, 18);
+}
+
+p{
+    margin-top: 10px;
+    font-family: 'Lilita One', sans-serif;
+    background-color: #765f4f;
+    display: flexbox;
+    padding: 9px;
+    border-radius: 20px;
+    color: white;
+    
+    
+}
+
+.courses{
+    display: flex;
+}
+
+
+div{
+    
+    margin: 50px 20px 0 45px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    width: 300px;
+    height: 150px;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.about{
+    margin-top: 30px;
+    font-family: 'Lilita One', sans-serif;
+    background-color: #765f4f;
+    display: inline;
+    padding: 6px 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+a:hover{
+    color: #756a60;
+}
+
+.hover:hover{
+    background-color: #dfd2b6;
+    border-radius: 15px
+}
+
